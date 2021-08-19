@@ -1,0 +1,92 @@
+
+
+.container {
+    margin: 0px auto;
+    background-color: rgb(201, 201, 201);
+    width: 1200px;
+    min-height: 1200px;
+}
+
+h1 {
+    text-align: center;
+    border-bottom: black 2px solid;
+    display: block;
+    padding: 20px;
+}
+
+h3 {
+    border: black solid 1px;
+    width: 25%;
+    display: block;
+    margin-top: 20px;
+}
+
+.boxes {
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    min-height: 300px;
+}
+
+.boxes h4 {
+    border-bottom: black solid 1px;
+    padding: 10px;
+}
+
+.boxes p {
+    margin-top: 30px;
+}
+
+.boxes form {
+    margin-top: 30px;
+}
+
+#one {
+    width: 25%;
+    margin: 15px;
+    border: black solid 2px;
+}
+
+#two {
+    width: 25%;
+    margin: 15px;
+    border: black solid 2px;
+}
+
+#three {
+    width: 25%;
+    margin: 15px;
+    border: black solid 2px;
+}
+
+#four {
+    width: 25%;
+    margin: 15px;
+    border: black solid 2px;
+}
+
+#button{
+        border: none;
+        color: black;
+        padding: 8px 16px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 15px;
+        background-color: #b8c6db;
+        background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+}
+
+#activities {
+    border: black 2px solid;
+    margin: 15px;
+}
+
+.lost {
+    color: red
+}
+
+.won {
+    color: green
+}
