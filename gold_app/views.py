@@ -51,4 +51,3 @@ def process_money(request):
         request.session['activities'] = activities
 
     return redirect("/")
-
